@@ -129,6 +129,8 @@ currently provide validation.
 
 See <<ls-output-settings-yaml-config>> for descriptions of the available settings.
 
+What is missing in this section of the documentation is that we couldn't find information about which valid settings can be used in the advanced YAML configuration. The existing documentation, which is linked in the wizard for creating a new Logstash output for Elastic Agents, does not include this information. Our finding: You can use the Elastic Agent Reference YAML as a guide to see which parameters can be used in the advanced YAML configuration (tested so far only with 'ssl.verification_mode'). To access the Reference YAML page, visit https://www.elastic.co/guide/en/fleet/current/elastic-agent-reference-yaml.html and search for 'ssl.verification_mode'
+
 // =============================================================================
 
 |
